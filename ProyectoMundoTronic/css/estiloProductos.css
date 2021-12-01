@@ -1,0 +1,256 @@
+@charset "ISO-8859-1";
+* {
+	margin: 0;
+	border: 0;
+        padding: 0;
+}
+body {
+	background-size: 500px 1050px;
+	background-color: "crimson";
+}
+
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+#baner {
+	width:100%; 
+	height:auto;
+	float: right;
+	border-radius: 20px;
+}
+/*scroll up*/
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #000;
+    right: 47px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 7px;
+    cursor:pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+/*  header  */
+header {
+	background-color: lavender;
+}
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color: chocolate;
+}
+header h1:hover{
+color: skyblue;
+}
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*  nav  */
+ul, ol{
+	list-style: none;
+	
+}
+
+nav{
+	background-color: black; 
+	float: left;
+	display:block;
+	width:100%;
+	margin: 1px;
+	padding:0;
+	list-style-type:none;
+	
+}
+nav>li{
+	background-color: black;
+	float: left;
+	text-decoration: none;
+	color: white;
+	
+}
+/*
+nav>li.1{
+	float:left;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	margin-left: 25%;
+}*/
+ul li a{
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	color: white;
+	display:block;
+	font-size: 15pt;	
+	line-height: 20px;
+
+}
+nav ul li .xd{
+	position: relative;
+	left:65px;
+	padding: 0 20px;	
+	margin-right: 52px;
+	
+}
+
+ul li a span{
+	display:block;
+	height: 100%;
+	width: 100%;
+	left:0;
+	position: absolute;
+	
+}
+	ul li a span .icon {
+		position: relative;
+		display: block;
+		right: 25px;
+		margin-right: 10px;
+		color: crimson;
+	}
+.icon-login{
+	position: relative;
+	right: 20px;
+	top: 40px;
+}
+
+nav li ul{
+	display: none;
+	position: absolute;
+}
+
+
+nav li ul li a{
+	background-color: black;
+}
+
+/*  main  */
+main {
+	float: left;
+	display: flex;
+}
+
+/*  aside */
+aside {
+	width: 20%;
+	border: #BFC4FF;
+	padding: 20px;
+	background-color: lavender;
+}
+
+/*  aside izquierda  */
+aside h3 {
+	padding: 10px 0px;
+	text-align: center;
+	color: #FFCC1E;
+	text-transform: uppercase;
+}
+
+aside a {
+	color: crimson;
+	text-decoration: none;
+}
+aside>article{
+	text-align: center;
+	width:100%; height:100px;
+	overflow: hidden;
+}
+aside>article>img{
+	width:100%; height:80px; float:left;
+}
+aside>article>p{
+	margin-top: 20px;
+}
+/*  aside derecha  */
+aside img {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+}
+aside a:hover{
+	color: blue;
+}
+
+aside audio{
+	width: 100%;
+	padding: 20px 0px;
+}
+aside video{
+	width: 100%;
+	padding: 20px 0px;
+}   
+
+/*  section  */
+section {
+	float:left;
+	width: 100%;
+	padding: 5px;
+	text-align:center;
+	flex-direction: row;
+	justify-content: space-around;
+	display: block;
+	background-color: white;
+	overflow: hidden;
+}
+
+section figure {
+	float:left;
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #E6E6FA;
+	margin-left:30px;
+}
+section figure img {
+	width: 80%;
+	height: 210px;
+	margin: 10px auto;
+	display: block;
+}
+section figure a {
+    margin: 10px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	display: block;
+}
+section figure a img:hover{
+	transition-duration: 0.4s;
+	border-radius: 15px;
+}
+section figure a:hover{
+	color:orange;
+	transition-duration: 0.2s;
+}
+
+/*  footer  */
+
+
+
+
+/**/
+.dedo {
+	font-size: 30px;
+	color: crimson;
+	transition: all .3s ease;
+}
+ 
